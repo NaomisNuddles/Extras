@@ -1,0 +1,53 @@
+r - 4
+w - 2
+x - 1
+- - 0
+
+- (o o o) (o o o) (o o o)
+
+ex:
+
+- (rw-) (rw-) (r--)
+
+- 4+2+0 4+2+0 4+0+0
+
+- 660
+
+
+
+- r-- r-x r-x
+- 400 401 401
+- 455
+
+d rwx --x r-x
+d 421 001 401
+d 715
+
+- rwx --x r--
+- 421 001 400
+- 714
+
+chmod 455 filemane.txt
+
+
+touch -a -m -t 06012342.00 fileName.ext
+Where:
+-a = accessed
+-m = modified
+-t = timestamp
+-h = linktimestamp-.
+- use [[CC]YY]MMDDhhmm[.ss] time format
+
+echo "xxx" > filename.txt
+
+ln -s directory root
+
+truncate to ad bytes
+truncate -s <byte> <filename>
+
+git log --pretty='H'
+
+ifconfig | grep ether | 
+
+\ - prints none printable characters
+
