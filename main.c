@@ -7,7 +7,5 @@
 
 int	main(void)
 {
-	char	p[] = "dfuAe137";
-
-	printf("str: %s\n", strchr(p,65));
+	printf("str: %d\n", atoi("    +-45"));
 }
