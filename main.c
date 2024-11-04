@@ -7,5 +7,5 @@
 
 int	main(void)
 {
-	printf("str: %d\n", atoi("    +-45"));
+	printf("M: %s\n", calloc(5, 4));
 }
